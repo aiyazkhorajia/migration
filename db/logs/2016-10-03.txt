@@ -1,0 +1,23 @@
+Time : 14:24:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Hamraaz'1181','hamraaz18@yahoo.com','hms1811','','1','','','','')' at line 1
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values ('1181','Har Mandir Singh'Hamraaz'1181','hamraaz18@yahoo.com','hms1811','','1','','','','')
+
+Time : 14:05:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Hamraaz'1181','hamraaz18@yahoo.com','hms1811','','1','','','','')' at line 1
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values ('1181','Har Mandir Singh'Hamraaz'1181','hamraaz18@yahoo.com','hms1811','','1','','','','')
+
+Time : 13:32:30
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11' for key 'PRIMARY'
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values ('11','vijaypatel11','vijay@yahooo.com','123456','','1','','','','')
+
+Time : 13:18:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''user_id', 'meta_key' , 'meta_value') values ('11','last_name','patel')' at line 1
+Raw SQL : INSERT INTO m8t7_usermeta ('user_id', 'meta_key' , 'meta_value') values ('11','last_name','patel')
+
+Time : 12:36:47
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11' for key 'PRIMARY'
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values ('11','vijaypatel11','vijay@yahooo.com','123456','','1','','','','')
+
+Time : 12:20:17
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11' for key 'PRIMARY'
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values ('11','vijaypatel11','vijay@yahooo.com','123456','','1','','','','')

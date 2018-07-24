@@ -1,0 +1,3 @@
+Time : 14:45:20
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_registered' cannot be null
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values (:ID,:user_login,:user_email,:user_pass,:user_registered,:user_status,:user_nicename,:user_url,:user_activation_key,:display_name)

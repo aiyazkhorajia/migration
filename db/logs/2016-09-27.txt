@@ -1,0 +1,19 @@
+Time : 09:39:15
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Firstname' in 'field list'
+Raw SQL : INSERT INTO M8t7_users(Firstname,Age) VALUES(:f,:age)
+
+Time : 09:38:41
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Firstname' in 'field list'
+Raw SQL : INSERT INTO M8t7_users(Firstname,Age) VALUES(:f,:age)
+
+Time : 09:38:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Firstname' in 'field list'
+Raw SQL : INSERT INTO M8t7_users(Firstname,Age) VALUES(:f,:age)
+
+Time : 09:37:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Firstname' in 'field list'
+Raw SQL : INSERT INTO M8t7_users(Firstname,Age) VALUES(:f,:age)
+
+Time : 09:37:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Firstname' in 'field list'
+Raw SQL : INSERT INTO M8t7_users(Firstname,Age) VALUES(:f,:age)

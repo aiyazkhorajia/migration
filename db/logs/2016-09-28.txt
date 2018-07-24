@@ -1,0 +1,15 @@
+Time : 18:19:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES(?,?,?,?,?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO M8t7_users(ID,user_login,user_pass,user_nicename,user_email,user_url,user_registered,user_activation_key,user_status,display_name VALUES(:ID,:user_login,:user_pass,:user_nicename,:user_email,:user_url,:user_registered,:user_activation_key,:user_status,:display_name)
+
+Time : 18:15:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES(?,?,?,?,?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO M8t7_users(ID,user_login,user_pass,user_nicename,user_email,user_url,user_registered,user_activation_key,user_status,display_name VALUES(:ID,:user_login,:user_pass,:user_nicename,:user_email,:user_url,:user_registered,:user_activation_key,:user_status,:display_name)
+
+Time : 18:11:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES(?,?,?,?,?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO M8t7_users(ID,user_login,user_pass,user_nicename,user_email,user_url,user_registered,user_activation_key,user_status,display_name VALUES(:ID,:user_login,:user_pass,:user_nicename,:user_email,:user_url,:user_registered,:user_activation_key,:user_status,:display_name)
+
+Time : 18:11:09
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(',',array_keys(Array)) VALUES(?,?,?,?,?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO M8t7_users(implode(',',array_keys(Array)) VALUES(:ID,:user_login,:user_pass,:user_nicename,:user_email,:user_url,:user_registered,:user_activation_key,:user_status,:display_name)

@@ -1,0 +1,23 @@
+Time : 16:31:48
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1181' for key 'PRIMARY'
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values (:ID,:user_login,:user_email,:user_pass,:user_registered,:user_status,:user_nicename,:user_url,:user_activation_key,:display_name)
+
+Time : 08:53:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Hamraaz''),('1181','user_gender','1'),('1181','user_sendupdate','1'),('1181','us' at line 1
+Raw SQL : INSERT INTO m8t7_usermeta (user_id, meta_key , meta_value) values ('1181','last_name',''Hamraaz''),('1181','user_gender','1'),('1181','user_sendupdate','1'),('1181','user_birthdate','1901-01-01 00:00:00'),('1181','M8t7_user_level','0'),('1181','M8t7_capabilities','a:1:{s:10:"subscriber";b:1;}'),('1181','show_admin_bar_front','false'),('1181','use_ssl','0'),('1181','admin_color','fresh'),('1181','comment_shortcuts','false'),('1181','rich_editing','true'),('1181','description',''),('1181','nickname',''),('1181','wp_user_level','0'),('1181','oa_social_login_user_token',''),('1181','oa_social_login_identity_provider',''),('1181','oa_social_login_user_thumbnail',''),('1181','oa_social_login_user_picture',''),('1181','default_password_nag',''),('1181','first_name','Har Mandir Singh')
+
+Time : 08:44:30
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_registered' cannot be null
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values (:ID,:user_login,:user_email,:user_pass,:user_registered,:user_status,:user_nicename,:user_url,:user_activation_key,:display_name)
+
+Time : 08:44:23
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_registered' cannot be null
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values (:ID,:user_login,:user_email,:user_pass,:user_registered,:user_status,:user_nicename,:user_url,:user_activation_key,:display_name)
+
+Time : 08:43:11
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_registered' cannot be null
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values (:ID,:user_login,:user_email,:user_pass,:user_registered,:user_status,:user_nicename,:user_url,:user_activation_key,:display_name)
+
+Time : 08:33:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Hamraaz'1181','hamraaz18@yahoo.com','hms1811','','1','','','','')' at line 1
+Raw SQL : INSERT INTO m8t7_users (ID,user_login,user_email,user_pass,user_registered,user_status,user_nicename,user_url,user_activation_key,display_name) values ('1181','Har Mandir Singh'Hamraaz'1181','hamraaz18@yahoo.com','hms1811','','1','','','','')

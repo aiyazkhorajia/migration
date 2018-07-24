@@ -1,0 +1,11 @@
+Time : 10:12:57
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 10:12:21
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 10:12:19
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 10:11:48
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)

@@ -1,0 +1,7 @@
+Time : 11:34:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '20000' at line 1
+Raw SQL : SELECT * FROM dbo_artistmaster order by ArtistId limit 20001 20000
+
+Time : 08:41:44
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+Raw SQL : INSERT INTO m8t7_posts (ID,post_author,post_date,post_date_gmt,post_content,post_title,post_status,post_excerpt,comment_status,ping_status,post_password,post_name,to_ping,pinged,post_modified,post_modified_gmt,post_content_filtered,post_parent,guid,menu_order,post_type,post_mime_type,comment_count) values (:ID,:post_author,:post_date,:post_date_gmt,:post_content,:post_title,:post_status,:post_excerpt,:comment_status,:ping_status,:post_password,:post_name,:to_ping,:pinged,:post_modified,:post_modified_gmt,:post_content_filtered,:post_parent,:guid,:menu_order,:post_type,:post_mime_type,:comment_count)
